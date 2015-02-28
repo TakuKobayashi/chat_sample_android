@@ -3,5 +3,6 @@
 
     <string name="app_name">chat_sample</string>
     <string name="hello_world">Hello world!</string>
+    <string name="send_button_text">送信</string>
 
 </resources>
