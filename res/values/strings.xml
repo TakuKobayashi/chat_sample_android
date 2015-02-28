@@ -4,5 +4,6 @@
     <string name="app_name">chat_sample</string>
     <string name="hello_world">Hello world!</string>
     <string name="send_button_text">送信</string>
+    <string name="login_hint_text">名前を入力してください</string>
 
 </resources>

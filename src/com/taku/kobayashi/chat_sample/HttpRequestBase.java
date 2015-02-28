@@ -49,7 +49,7 @@ public abstract class HttpRequestBase<T> extends Request<T> {
     }
  
     @Override
-    protected abstract Response<T> parseNetworkResponse(NetworkResponse response);;
+    protected abstract Response<T> parseNetworkResponse(NetworkResponse response);
 
     public interface Listener<T> extends Response.Listener<T>{
       public void onNetworkResponse(NetworkResponse response);
