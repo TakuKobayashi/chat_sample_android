@@ -70,9 +70,6 @@ public class ChatActivity extends BaseActivity {
 			@Override
 			public void onClick(View v) {
 				JSONObject obj = new JSONObject();
-				obj.put("name", "server");
-				obj.put("message", new byte[42]);
-				mSocket.emit(event, obj);
 			}
 		});
 	}
